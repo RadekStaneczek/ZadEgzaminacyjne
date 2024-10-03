@@ -18,6 +18,7 @@ body
 {
     background-color:#BA6B6C;
     padding: 7px;
+    color:white;
 }
 .blok
 {
@@ -51,6 +52,7 @@ body
 {
     background-color:#BA6B6C;
     padding: 7px;
+    color:white;
 }
 h2::first-letter
 {
