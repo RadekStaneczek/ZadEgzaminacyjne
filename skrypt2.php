@@ -7,7 +7,7 @@
 
     while ($row = $result -> fetch_assoc()) 
     {
-        echo "<li>Dnia ".$row['dataWyjazdu']."pojechaliśmy do ".$row['cel']."</li>";
+        echo "<li>Dnia ".$row['dataWyjazdu']." pojechaliśmy do ".$row['cel']."</li>";
     }
     $db->close();
 ?>
