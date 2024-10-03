@@ -1,0 +1,72 @@
+*
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin:0;
+}
+body
+{
+    background-color:#BA6B6C;
+    
+}
+.container
+{
+    width: 100%;
+    
+}
+#header
+{
+    background-color:#BA6B6C;
+    padding: 7px;
+}
+.blok
+{
+    width: 20%;
+    height: 500px;
+    background-color: #EF9A9A;
+    float: left;
+}
+#srodkowy
+{
+    width: 60%;
+    background-color: mistyrose;
+    
+}
+#dane
+{
+    clear:both;
+    background-color: mistyrose;
+    padding: 50px;
+    text-align: left;
+}
+#dane > ol > li
+{
+    text-align: left;
+}
+#dane > ol 
+{
+    list-style: upper-roman;
+}
+#stopka
+{
+    background-color:#BA6B6C;
+    padding: 7px;
+}
+h2::first-letter
+{
+    font-size: 170%;
+    color:maroon;
+}
+table
+{
+    margin:auto;
+    width: 80%;
+    border: 1px maroon solid;
+}
+img
+{
+    width: auto;
+    height: 120px;
+    margin: 7px;
+    box-shadow: 7px 7px dimgray;
+}

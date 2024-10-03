@@ -1,0 +1,4 @@
+kw1: select nazwaPliku from zdjecia order by ASC;
+kw2: select cel,dataWyjazdu from wycieczki where dostepna like false;
+kw3: select cel,cena from wycieczki,zdjecia where wycieczki.zdjecia_id = zdjecia.id and cena > 1300
+kw4: DROP TABLE uzytkownik
